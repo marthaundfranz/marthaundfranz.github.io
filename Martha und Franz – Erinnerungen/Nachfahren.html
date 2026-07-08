@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Nachfahren</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png"/><title>Nachfahren</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -14,17 +14,26 @@ body {
 	margin: 0;
 	padding: 0;
 }
+html {
+	background: #f4ecd8 url("../assets/bg-letter.jpg") center center / cover fixed no-repeat;
+	min-height: 100%;
+}
 @media only screen {
 	body {
 		margin: 2em auto;
 		max-width: 900px;
+		padding: 2.5em 3em;
 		color: rgb(55, 53, 47);
+		background: rgba(244, 236, 216, 0.96);
+		box-shadow: 0 2px 28px rgba(0, 0, 0, 0.18);
+		border-radius: 3px;
 	}
 }
 
 body {
 	line-height: 1.5;
 	white-space: pre-wrap;
+	font-family: Lyon-Text, Georgia, ui-serif, serif;
 }
 
 a,
@@ -766,10 +775,12 @@ blockquote.quote-large {
 	
 
 @media only screen and (max-width: 720px) {
+	html { background: #f4ecd8; }
 	body {
-		margin: 1em auto;
-		padding: 0 1.1em;
-		max-width: 100%;
+		margin: 0.75em;
+		padding: 1.5em 1.1em;
+		max-width: calc(100% - 1.5em);
+		border-radius: 3px;
 	}
 	.page-title { font-size: 1.75rem; }
 	h1 { font-size: 1.4rem; }
@@ -781,5 +792,25 @@ blockquote.quote-large {
 	.bookmark-image { width: 100%; height: 160px; }
 	.link-preview iframe { height: 220px; }
 }
+
+.chapter-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1em;
+	margin: 3em 0 1em;
+	padding-top: 1.5em;
+	border-top: 1px solid rgba(55, 53, 47, 0.09);
+	font-size: 0.95em;
+}
+.chapter-nav a { text-decoration: none; }
+.chapter-nav-prev, .chapter-nav-next { flex: 1 1 0; }
+.chapter-nav-next { text-align: right; }
+.chapter-nav-index { flex: 0 0 auto; opacity: 0.6; font-size: 0.85em; }
+@media only screen and (max-width: 720px) {
+	.chapter-nav { flex-wrap: wrap; }
+	.chapter-nav-prev, .chapter-nav-next { flex: 1 1 40%; }
+	.chapter-nav-index { order: 3; width: 100%; text-align: center; }
+}
 </style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="7730552a-9ac7-41a5-8765-82b2ed4e7a90" class="page serif"><header><h1 class="page-title" dir="auto">Nachfahren</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><hr id="55a9ced4-c19c-4a44-a476-ee9cb275788e" dir="auto"/><p id="371e2596-b98c-805b-acc2-e30dd42881fe" class="" dir="auto">Das hier waren meine rudimentären Anfänge meiner Familienforschung, inzwischen ist mein Stammbaum auf inzwischen mehr als 2000 Personen angewachsen und auch im Internet verfügbar. </p><p id="37fe2596-b98c-80c0-92aa-dc499e6f4d83" class="" dir="auto">Schaut mal hier, <strong><a href="https://www.macfamilytree.com/">https://www.macfamilytree.com</a></strong> oder direkt zu meinem <strong><a href="https://www.macfamilytree.com/ausdemdunklental/Stammbaum%20der%20Familie%20Baron%2DBl%C3%BCgel/languages/de/index.html">Stammbaum</a></strong><strong> </strong> </p><p id="37fe2596-b98c-8090-936c-c9f71b7130da" class="" dir="auto">Andere Familien-Forscher anderer Familien haben hier auch ihre Stammbäume gelistet. Oben rechts auf der <strong><a href="https://www.macfamilytree.com">Seite</a></strong> gibt es ein Suchfeld für Nachnamen. Falls ihr nicht fündig werdet, meldet euch einfach bei mir.</p><p id="371e2596-b98c-80b7-b496-cb4a7e173c27" class="" dir="auto">
-</p><p id="371e2596-b98c-8067-aa3f-da0becc66db8" class="" dir="auto">Michael Baron</p><figure id="371e2596-b98c-80d3-a3a7-fc881d577e55" class="image" data-notion-image="Nachfahren/image.png" dir="ltr"><a href="Nachfahren/image.png"><img style="width:584.984375px" src="Nachfahren/image.png"/></a></figure></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+</p><p id="371e2596-b98c-8067-aa3f-da0becc66db8" class="" dir="auto">Michael Baron</p><figure id="371e2596-b98c-80d3-a3a7-fc881d577e55" class="image" data-notion-image="Nachfahren/image.png" dir="ltr"><a href="Nachfahren/image.png"><img style="width:584.984375px" src="Nachfahren/image.png"/></a></figure><nav class="chapter-nav"><a class="chapter-nav-prev" href="Anmerkung%202012.html">← Anmerkung 2012</a><a class="chapter-nav-index" href="../index.html">Inhaltsverzeichnis</a><a class="chapter-nav-next" href="%E2%80%9CErinnerungen%20aus%20dem%20Schuhkarton%E2%80%9D.html">„Erinnerungen aus dem Schuhkarton“ →</a></nav></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Anmerkung 2012</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png"/><title>Anmerkung 2012</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -14,17 +14,26 @@ body {
 	margin: 0;
 	padding: 0;
 }
+html {
+	background: #f4ecd8 url("../assets/bg-letter.jpg") center center / cover fixed no-repeat;
+	min-height: 100%;
+}
 @media only screen {
 	body {
 		margin: 2em auto;
 		max-width: 900px;
+		padding: 2.5em 3em;
 		color: rgb(55, 53, 47);
+		background: rgba(244, 236, 216, 0.96);
+		box-shadow: 0 2px 28px rgba(0, 0, 0, 0.18);
+		border-radius: 3px;
 	}
 }
 
 body {
 	line-height: 1.5;
 	white-space: pre-wrap;
+	font-family: Lyon-Text, Georgia, ui-serif, serif;
 }
 
 a,
@@ -766,10 +775,12 @@ blockquote.quote-large {
 	
 
 @media only screen and (max-width: 720px) {
+	html { background: #f4ecd8; }
 	body {
-		margin: 1em auto;
-		padding: 0 1.1em;
-		max-width: 100%;
+		margin: 0.75em;
+		padding: 1.5em 1.1em;
+		max-width: calc(100% - 1.5em);
+		border-radius: 3px;
 	}
 	.page-title { font-size: 1.75rem; }
 	h1 { font-size: 1.4rem; }
@@ -781,7 +792,27 @@ blockquote.quote-large {
 	.bookmark-image { width: 100%; height: 160px; }
 	.link-preview iframe { height: 220px; }
 }
+
+.chapter-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1em;
+	margin: 3em 0 1em;
+	padding-top: 1.5em;
+	border-top: 1px solid rgba(55, 53, 47, 0.09);
+	font-size: 0.95em;
+}
+.chapter-nav a { text-decoration: none; }
+.chapter-nav-prev, .chapter-nav-next { flex: 1 1 0; }
+.chapter-nav-next { text-align: right; }
+.chapter-nav-index { flex: 0 0 auto; opacity: 0.6; font-size: 0.85em; }
+@media only screen and (max-width: 720px) {
+	.chapter-nav { flex-wrap: wrap; }
+	.chapter-nav-prev, .chapter-nav-next { flex: 1 1 40%; }
+	.chapter-nav-index { order: 3; width: 100%; text-align: center; }
+}
 </style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="b25dcdd9-1aa6-4713-9add-e48ac79b3601" class="page serif"><header><h1 class="page-title" dir="auto">Anmerkung 2012</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><hr id="259f7aaa-228a-43b0-a957-73a40b648091" dir="auto"/><p id="371e2596-b98c-8081-98d9-e1cd5a62e253" class="" dir="auto">Ich habe die Aufzeichnungen bewusst so erhalten wie ich sie 1995 aufgeschrieben hatte. In der Zwischenzeit habe ich sehr viel mehr Fotos und Daten über Verwandte und Vorfahren gesammelt.</p><p id="371e2596-b98c-8009-b020-e28a8ca879f8" class="" dir="auto">Michael Baron im Jahr 2012</p><p id="372e2596-b98c-806d-985d-dafb39dff633" class="" dir="auto">
 </p><p id="372e2596-b98c-8090-817a-f7fb46ae30a6" class="" dir="auto">
 </p><p id="372e2596-b98c-8084-a99c-c246864e43bb" class="" dir="auto">Mehr dazu, siehe im nächsten Kapitel “Nachfahren”</p><p id="372e2596-b98c-8091-be56-db1990d48b7e" class="" dir="auto">
-</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+</p><nav class="chapter-nav"><a class="chapter-nav-prev" href="Wiesau%20heute.html">← Wiesau heute</a><a class="chapter-nav-index" href="../index.html">Inhaltsverzeichnis</a><a class="chapter-nav-next" href="Nachfahren.html">Nachfahren →</a></nav></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

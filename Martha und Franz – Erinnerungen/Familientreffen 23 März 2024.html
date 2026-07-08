@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Familientreffen 23. März 2024</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png"/><title>Familientreffen 23. März 2024</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -14,17 +14,26 @@ body {
 	margin: 0;
 	padding: 0;
 }
+html {
+	background: #f4ecd8 url("../assets/bg-letter.jpg") center center / cover fixed no-repeat;
+	min-height: 100%;
+}
 @media only screen {
 	body {
 		margin: 2em auto;
 		max-width: 900px;
+		padding: 2.5em 3em;
 		color: rgb(55, 53, 47);
+		background: rgba(244, 236, 216, 0.96);
+		box-shadow: 0 2px 28px rgba(0, 0, 0, 0.18);
+		border-radius: 3px;
 	}
 }
 
 body {
 	line-height: 1.5;
 	white-space: pre-wrap;
+	font-family: Lyon-Text, Georgia, ui-serif, serif;
 }
 
 a,
@@ -776,10 +785,12 @@ blockquote.quote-large {
 	
 
 @media only screen and (max-width: 720px) {
+	html { background: #f4ecd8; }
 	body {
-		margin: 1em auto;
-		padding: 0 1.1em;
-		max-width: 100%;
+		margin: 0.75em;
+		padding: 1.5em 1.1em;
+		max-width: calc(100% - 1.5em);
+		border-radius: 3px;
 	}
 	.page-title { font-size: 1.75rem; }
 	h1 { font-size: 1.4rem; }
@@ -791,9 +802,29 @@ blockquote.quote-large {
 	.bookmark-image { width: 100%; height: 160px; }
 	.link-preview iframe { height: 220px; }
 }
+
+.chapter-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1em;
+	margin: 3em 0 1em;
+	padding-top: 1.5em;
+	border-top: 1px solid rgba(55, 53, 47, 0.09);
+	font-size: 0.95em;
+}
+.chapter-nav a { text-decoration: none; }
+.chapter-nav-prev, .chapter-nav-next { flex: 1 1 0; }
+.chapter-nav-next { text-align: right; }
+.chapter-nav-index { flex: 0 0 auto; opacity: 0.6; font-size: 0.85em; }
+@media only screen and (max-width: 720px) {
+	.chapter-nav { flex-wrap: wrap; }
+	.chapter-nav-prev, .chapter-nav-next { flex: 1 1 40%; }
+	.chapter-nav-index { order: 3; width: 100%; text-align: center; }
+}
 </style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="382e2596-b98c-803c-b5d2-d48e95e2d9ec" class="page serif"><header><h1 class="page-title" dir="auto">Familientreffen 23. März 2024</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><figure class="link-preview"><iframe src="https://www.google.com/maps?q=49.5051455,7.7760382&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><figcaption><a href="https://www.google.com/maps/@49.5051455,7.7760382,605m/data=!3m1!1e3?entry=ttu&amp;g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">In Google Maps öffnen ↗</a></figcaption></figure><p id="382e2596-b98c-8012-9df7-d95388ab992f" class="" dir="auto">
 </p><p id="382e2596-b98c-80e0-b208-fe9c2a8217a8" class="" dir="auto">
 </p><p id="382e2596-b98c-801d-a8a0-d4ebe23c70a3" class="" dir="auto">Rückblick unseres schönen Familientreffens aus dem Jahr 2024 in Otterberg </p><p id="382e2596-b98c-800e-956e-ef6460d29821" class="" dir="auto"><a href="https://photos.app.goo.gl/X1j2tPYHD1f82Kqi8">https://photos.app.goo.gl/X1j2tPYHD1f82Kqi8</a> 📸</p><p id="382e2596-b98c-80b0-beac-fd0bdbbb18ee" class="" dir="auto">
 </p><p id="382e2596-b98c-806e-a2ae-e6fb47f01435" class="" dir="auto">➡️  und hier die Folien meines “Vortrages” als PDF, die hier vorliegende Version ist etwas komprimiert, wer Interesse an der Originaldatei hat (100MB) einfach bei mir melden. In der Originalversion sind die Bilder und Fotos in voller Auflösung.</p><p id="382e2596-b98c-8061-9d0d-c818a70d17b2" class="" dir="auto">
 </p><figure id="382e2596-b98c-8000-8109-c41014a2f891" dir="ltr"><a class="file-card" href="Familientreffen%2023%20M%C3%A4rz%202024/Familientreffen_2024.pdf"><span class="file-icon">📄</span><span class="file-name">Familientreffen 2024.pdf</span></a></figure><p id="382e2596-b98c-8033-82e3-ed7c3323ad6d" class="" dir="auto">
-</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+</p><nav class="chapter-nav"><a class="chapter-nav-prev" href="%E2%80%9CErinnerungen%20aus%20dem%20Schuhkarton%E2%80%9D.html">← „Erinnerungen aus dem Schuhkarton“</a><a class="chapter-nav-index" href="../index.html">Inhaltsverzeichnis</a><a class="chapter-nav-next" href="G%C3%A4rtner,%20Freig%C3%A4rtner,%20H%C3%A4usler,%20Stellenbesitzer%20und.html">Gärtner, Freigärtner, Häusler, Stellenbesitzer und Tagelöhner →</a></nav></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

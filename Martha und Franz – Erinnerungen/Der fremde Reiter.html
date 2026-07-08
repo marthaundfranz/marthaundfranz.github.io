@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Der fremde Reiter</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png"/><title>Der fremde Reiter</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -14,17 +14,26 @@ body {
 	margin: 0;
 	padding: 0;
 }
+html {
+	background: #f4ecd8 url("../assets/bg-letter.jpg") center center / cover fixed no-repeat;
+	min-height: 100%;
+}
 @media only screen {
 	body {
 		margin: 2em auto;
 		max-width: 900px;
+		padding: 2.5em 3em;
 		color: rgb(55, 53, 47);
+		background: rgba(244, 236, 216, 0.96);
+		box-shadow: 0 2px 28px rgba(0, 0, 0, 0.18);
+		border-radius: 3px;
 	}
 }
 
 body {
 	line-height: 1.5;
 	white-space: pre-wrap;
+	font-family: Lyon-Text, Georgia, ui-serif, serif;
 }
 
 a,
@@ -766,10 +775,12 @@ blockquote.quote-large {
 	
 
 @media only screen and (max-width: 720px) {
+	html { background: #f4ecd8; }
 	body {
-		margin: 1em auto;
-		padding: 0 1.1em;
-		max-width: 100%;
+		margin: 0.75em;
+		padding: 1.5em 1.1em;
+		max-width: calc(100% - 1.5em);
+		border-radius: 3px;
 	}
 	.page-title { font-size: 1.75rem; }
 	h1 { font-size: 1.4rem; }
@@ -781,4 +792,24 @@ blockquote.quote-large {
 	.bookmark-image { width: 100%; height: 160px; }
 	.link-preview iframe { height: 220px; }
 }
-</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="cc2979a8-6e73-4bb1-affa-67d05fb7bda3" class="page serif"><header><h1 class="page-title" dir="auto">Der fremde Reiter</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><hr id="b95bfdbd-0ec0-4362-88af-a72e7db1c3de" dir="auto"/><p id="371e2596-b98c-806e-bba8-fae8c8073914" class="" dir="auto">Eines Tages um die Mittagszeit war ich gerade alleine mit Christel im Haus. Meine Mutter und Hannchen waren drüben beim Nachbarn, dem Stellmacher, wo wir immer zusammen aßen. Ich war in die Küche zurückgegangen, um etwas zu holen, da sah ich durchs Fenster, daß ein russischer Soldat angeritten kam. Er band sein Pferd draußen im Hof an, sah sich erst um, und kam dann direkt zum Haus. Ich habe gezittert vor Angst, als er an die Tür polterte. Ich wußte nicht, was ich tun sollte. Als ich durchs Fenster sah, hat er mich gesehen. So habe ich dann doch aufgemacht. Um die Tür zu öffnen, mußte ich erst den dicken Balken, den wir quer vor unserer Tür hatten, wegnehmen. Er trat ein und fragte: &quot;Wo pan, wo pan?&quot; (Wo ist der Mann?). Ich sagte ihm, daß er nicht hier sei, vielleicht in Gefangenschaft. Daraufhin ist er durch das ganze Haus gegangen und hat nachgesehen, ob auch wirklich niemand da ist. Danach sagte er: &quot;Komm Frau, spaaz!&quot;, was wohl schlafen heißt. Er ging in die Schlafstube und sah die zehn Wochen alte Christel in ihrem Kinderwagen schlafen. Er war sichtlich entzückt, legte seinen Finger an den Mund und verließ auf Zehenspitzen das Haus. So hat mir die Christel, wie auch in Batzdorf, als nachts die Russen kamen, Schlimmes erspart.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+.chapter-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1em;
+	margin: 3em 0 1em;
+	padding-top: 1.5em;
+	border-top: 1px solid rgba(55, 53, 47, 0.09);
+	font-size: 0.95em;
+}
+.chapter-nav a { text-decoration: none; }
+.chapter-nav-prev, .chapter-nav-next { flex: 1 1 0; }
+.chapter-nav-next { text-align: right; }
+.chapter-nav-index { flex: 0 0 auto; opacity: 0.6; font-size: 0.85em; }
+@media only screen and (max-width: 720px) {
+	.chapter-nav { flex-wrap: wrap; }
+	.chapter-nav-prev, .chapter-nav-next { flex: 1 1 40%; }
+	.chapter-nav-index { order: 3; width: 100%; text-align: center; }
+}
+</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="cc2979a8-6e73-4bb1-affa-67d05fb7bda3" class="page serif"><header><h1 class="page-title" dir="auto">Der fremde Reiter</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><hr id="b95bfdbd-0ec0-4362-88af-a72e7db1c3de" dir="auto"/><p id="371e2596-b98c-806e-bba8-fae8c8073914" class="" dir="auto">Eines Tages um die Mittagszeit war ich gerade alleine mit Christel im Haus. Meine Mutter und Hannchen waren drüben beim Nachbarn, dem Stellmacher, wo wir immer zusammen aßen. Ich war in die Küche zurückgegangen, um etwas zu holen, da sah ich durchs Fenster, daß ein russischer Soldat angeritten kam. Er band sein Pferd draußen im Hof an, sah sich erst um, und kam dann direkt zum Haus. Ich habe gezittert vor Angst, als er an die Tür polterte. Ich wußte nicht, was ich tun sollte. Als ich durchs Fenster sah, hat er mich gesehen. So habe ich dann doch aufgemacht. Um die Tür zu öffnen, mußte ich erst den dicken Balken, den wir quer vor unserer Tür hatten, wegnehmen. Er trat ein und fragte: &quot;Wo pan, wo pan?&quot; (Wo ist der Mann?). Ich sagte ihm, daß er nicht hier sei, vielleicht in Gefangenschaft. Daraufhin ist er durch das ganze Haus gegangen und hat nachgesehen, ob auch wirklich niemand da ist. Danach sagte er: &quot;Komm Frau, spaaz!&quot;, was wohl schlafen heißt. Er ging in die Schlafstube und sah die zehn Wochen alte Christel in ihrem Kinderwagen schlafen. Er war sichtlich entzückt, legte seinen Finger an den Mund und verließ auf Zehenspitzen das Haus. So hat mir die Christel, wie auch in Batzdorf, als nachts die Russen kamen, Schlimmes erspart.</p><nav class="chapter-nav"><a class="chapter-nav-prev" href="Wie%20war%20es%20bei%20Martha%20zu%20Hause.html">← Wie war es bei Martha zu Hause?</a><a class="chapter-nav-index" href="../index.html">Inhaltsverzeichnis</a><a class="chapter-nav-next" href="Die%20Vertreibung.html">Die Vertreibung →</a></nav></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

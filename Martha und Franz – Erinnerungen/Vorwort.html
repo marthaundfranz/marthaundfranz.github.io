@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Vorwort</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png"/><title>Vorwort</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -14,17 +14,26 @@ body {
 	margin: 0;
 	padding: 0;
 }
+html {
+	background: #f4ecd8 url("../assets/bg-letter.jpg") center center / cover fixed no-repeat;
+	min-height: 100%;
+}
 @media only screen {
 	body {
 		margin: 2em auto;
 		max-width: 900px;
+		padding: 2.5em 3em;
 		color: rgb(55, 53, 47);
+		background: rgba(244, 236, 216, 0.96);
+		box-shadow: 0 2px 28px rgba(0, 0, 0, 0.18);
+		border-radius: 3px;
 	}
 }
 
 body {
 	line-height: 1.5;
 	white-space: pre-wrap;
+	font-family: Lyon-Text, Georgia, ui-serif, serif;
 }
 
 a,
@@ -766,10 +775,12 @@ blockquote.quote-large {
 	
 
 @media only screen and (max-width: 720px) {
+	html { background: #f4ecd8; }
 	body {
-		margin: 1em auto;
-		padding: 0 1.1em;
-		max-width: 100%;
+		margin: 0.75em;
+		padding: 1.5em 1.1em;
+		max-width: calc(100% - 1.5em);
+		border-radius: 3px;
 	}
 	.page-title { font-size: 1.75rem; }
 	h1 { font-size: 1.4rem; }
@@ -781,4 +792,24 @@ blockquote.quote-large {
 	.bookmark-image { width: 100%; height: 160px; }
 	.link-preview iframe { height: 220px; }
 }
-</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="df085a43-0050-47cb-82ae-c583bb693785" class="page serif"><header><h1 class="page-title" dir="auto">Vorwort</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><p id="7a6aaba8-0ac9-414a-9809-4abce855ab33" class="" dir="auto">In fast jedem Buch findet man an dieser Stelle ein Vorwort. Jeder Autor denkt, er müsse zu seinem eigentlichen Geschriebenen besondere oder erklärende Worte hinzutun.</p><p id="33a16cdc-17fb-4eb2-b16b-83513b51b892" class="" dir="auto">Nun ist es gar nicht einfach, einen Anfang für ein Buch zu finden. Man ist in jeder Hinsicht begrenzt. Ein Buch soll ja das Wesentliche eines Themas behandeln, was einem gerade bei persönlichen Dingen sehr schwer fällt.</p><p id="8ac5ad75-0766-4333-9940-295b4162d302" class="" dir="auto">Hier ist es die Geschichte meiner Großeltern mütterlicherseits. Das Büchlein soll auf keinen Fall ein „Geschichtsbuch&quot; sein, auch erhebe ich keinen Anspruch auf Vollständigkeit. Es ist vielmehr eine Sammlung der vielen kleinen Geschichten und Erlebnisse meiner Großeltern, die sie mir zum Teil schon erzählt haben, als ich noch ein kleiner Junge war. An vieles haben sie sich erst nach mehrmaligem Nachfragen erinnert. Oft fehlte nur ein kleiner Anreiz, um sich zu entsinnen. Zum Beispiel, als ich ihnen einen Plan von Wiesau vorlegte, da sprudelte es nur so aus den beiden heraus.</p><p id="5a93a09d-cd53-439a-899b-c5e75420c4c8" class="" dir="auto">So hoffe ich, auch anderen, die sich vielleicht für das Leben meiner Großeltern interessieren oder irgendwie in Verbindung zu Schlesien stehen, mit meinem Buch eine Freude zu machen.</p><p id="fd29cca5-0c4c-4504-a34f-7be548e1609c" class="" dir="auto">Danken für ihre Mühe möchte ich natürlich Oma und Opa, ohne die das Buch nie zustande gekommen wäre. Auch möchte ich allen danken, die mir in irgendeiner Weise behilflich waren, besonders meiner Frau Stefanie für ihre große Hilfe beim Schreiben und Korrekturlesen.</p><hr id="ea8431ff-75d6-4800-9e29-24f26f33baa3" dir="auto"/><aside class="block-color-brown_background callout" data-notion-callout="" data-notion-callout-icon="🌹" data-notion-callout-background="brown_background" style="white-space:pre-wrap;display:flex" id="0cb33ad0-db92-47b4-8e5e-5039dd267e90" dir="ltr"><div style="font-size:1.5em"><span class="icon" data-emoji="🌹"></span></div><div style="width:100%"><p id="7a97c0a3-a9d3-4fda-970a-3a4e1a718798" class="" dir="auto"><em>Gewidmet meinen Großeltern</em></p><p id="952c384f-4e74-4d27-a745-6d6431013c2e" class="" dir="auto"><strong>Martha und Franz Machunze,</strong></p><p id="e444e40d-5eae-4fb0-8e86-9c65163ee375" class="" dir="auto"><em>denen ich viel zu verdanken habe.</em></p></div></aside><hr id="991037e2-60b8-4b39-9e7f-65ec23c36401" dir="auto"/><p id="5e7b306d-ba4e-43b4-9dac-3714aff603e3" class="" dir="auto">Otterberg, im Frühjahr 1995<br/><em>Michael Baron</em></p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+.chapter-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1em;
+	margin: 3em 0 1em;
+	padding-top: 1.5em;
+	border-top: 1px solid rgba(55, 53, 47, 0.09);
+	font-size: 0.95em;
+}
+.chapter-nav a { text-decoration: none; }
+.chapter-nav-prev, .chapter-nav-next { flex: 1 1 0; }
+.chapter-nav-next { text-align: right; }
+.chapter-nav-index { flex: 0 0 auto; opacity: 0.6; font-size: 0.85em; }
+@media only screen and (max-width: 720px) {
+	.chapter-nav { flex-wrap: wrap; }
+	.chapter-nav-prev, .chapter-nav-next { flex: 1 1 40%; }
+	.chapter-nav-index { order: 3; width: 100%; text-align: center; }
+}
+</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="df085a43-0050-47cb-82ae-c583bb693785" class="page serif"><header><h1 class="page-title" dir="auto">Vorwort</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><p id="7a6aaba8-0ac9-414a-9809-4abce855ab33" class="" dir="auto">In fast jedem Buch findet man an dieser Stelle ein Vorwort. Jeder Autor denkt, er müsse zu seinem eigentlichen Geschriebenen besondere oder erklärende Worte hinzutun.</p><p id="33a16cdc-17fb-4eb2-b16b-83513b51b892" class="" dir="auto">Nun ist es gar nicht einfach, einen Anfang für ein Buch zu finden. Man ist in jeder Hinsicht begrenzt. Ein Buch soll ja das Wesentliche eines Themas behandeln, was einem gerade bei persönlichen Dingen sehr schwer fällt.</p><p id="8ac5ad75-0766-4333-9940-295b4162d302" class="" dir="auto">Hier ist es die Geschichte meiner Großeltern mütterlicherseits. Das Büchlein soll auf keinen Fall ein „Geschichtsbuch&quot; sein, auch erhebe ich keinen Anspruch auf Vollständigkeit. Es ist vielmehr eine Sammlung der vielen kleinen Geschichten und Erlebnisse meiner Großeltern, die sie mir zum Teil schon erzählt haben, als ich noch ein kleiner Junge war. An vieles haben sie sich erst nach mehrmaligem Nachfragen erinnert. Oft fehlte nur ein kleiner Anreiz, um sich zu entsinnen. Zum Beispiel, als ich ihnen einen Plan von Wiesau vorlegte, da sprudelte es nur so aus den beiden heraus.</p><p id="5a93a09d-cd53-439a-899b-c5e75420c4c8" class="" dir="auto">So hoffe ich, auch anderen, die sich vielleicht für das Leben meiner Großeltern interessieren oder irgendwie in Verbindung zu Schlesien stehen, mit meinem Buch eine Freude zu machen.</p><p id="fd29cca5-0c4c-4504-a34f-7be548e1609c" class="" dir="auto">Danken für ihre Mühe möchte ich natürlich Oma und Opa, ohne die das Buch nie zustande gekommen wäre. Auch möchte ich allen danken, die mir in irgendeiner Weise behilflich waren, besonders meiner Frau Stefanie für ihre große Hilfe beim Schreiben und Korrekturlesen.</p><hr id="ea8431ff-75d6-4800-9e29-24f26f33baa3" dir="auto"/><aside class="block-color-brown_background callout" data-notion-callout="" data-notion-callout-icon="🌹" data-notion-callout-background="brown_background" style="white-space:pre-wrap;display:flex" id="0cb33ad0-db92-47b4-8e5e-5039dd267e90" dir="ltr"><div style="font-size:1.5em"><span class="icon" data-emoji="🌹"></span></div><div style="width:100%"><p id="7a97c0a3-a9d3-4fda-970a-3a4e1a718798" class="" dir="auto"><em>Gewidmet meinen Großeltern</em></p><p id="952c384f-4e74-4d27-a745-6d6431013c2e" class="" dir="auto"><strong>Martha und Franz Machunze,</strong></p><p id="e444e40d-5eae-4fb0-8e86-9c65163ee375" class="" dir="auto"><em>denen ich viel zu verdanken habe.</em></p></div></aside><hr id="991037e2-60b8-4b39-9e7f-65ec23c36401" dir="auto"/><p id="5e7b306d-ba4e-43b4-9dac-3714aff603e3" class="" dir="auto">Otterberg, im Frühjahr 1995<br/><em>Michael Baron</em></p><nav class="chapter-nav"><span class="chapter-nav-prev"></span><a class="chapter-nav-index" href="../index.html">Inhaltsverzeichnis</a><a class="chapter-nav-next" href="Wiesau,%20Kreis%20Nei%C3%9Fe%20%E2%80%93%20wo%20ist%20das%20%C3%BCberhaupt.html">Wiesau, Kreis Neiße – wo ist das überhaupt? →</a></nav></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>

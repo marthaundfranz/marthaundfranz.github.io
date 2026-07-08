@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Die Vertreibung </title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png"/><link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png"/><link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png"/><title>Die Vertreibung </title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {
@@ -14,17 +14,26 @@ body {
 	margin: 0;
 	padding: 0;
 }
+html {
+	background: #f4ecd8 url("../assets/bg-letter.jpg") center center / cover fixed no-repeat;
+	min-height: 100%;
+}
 @media only screen {
 	body {
 		margin: 2em auto;
 		max-width: 900px;
+		padding: 2.5em 3em;
 		color: rgb(55, 53, 47);
+		background: rgba(244, 236, 216, 0.96);
+		box-shadow: 0 2px 28px rgba(0, 0, 0, 0.18);
+		border-radius: 3px;
 	}
 }
 
 body {
 	line-height: 1.5;
 	white-space: pre-wrap;
+	font-family: Lyon-Text, Georgia, ui-serif, serif;
 }
 
 a,
@@ -766,10 +775,12 @@ blockquote.quote-large {
 	
 
 @media only screen and (max-width: 720px) {
+	html { background: #f4ecd8; }
 	body {
-		margin: 1em auto;
-		padding: 0 1.1em;
-		max-width: 100%;
+		margin: 0.75em;
+		padding: 1.5em 1.1em;
+		max-width: calc(100% - 1.5em);
+		border-radius: 3px;
 	}
 	.page-title { font-size: 1.75rem; }
 	h1 { font-size: 1.4rem; }
@@ -781,4 +792,24 @@ blockquote.quote-large {
 	.bookmark-image { width: 100%; height: 160px; }
 	.link-preview iframe { height: 220px; }
 }
-</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="371e2596-b98c-80d2-9173-c7b25de08ec4" class="page serif"><header><h1 class="page-title" dir="auto">Die Vertreibung </h1><p class="page-description" dir="auto"></p></header><div class="page-body"><hr id="371e2596-b98c-80cc-83f2-d0706d606213" dir="auto"/><p id="371e2596-b98c-8071-9e7f-c03bcff3fef6" class="" dir="auto"><br/>Als wir ca. 3 Wochen zu Hause waren, saß ich, wie jeden Morgen, unter der Kuh zum Melken. Plötzlich kamen bewaffnete polnische Soldaten und riefen: &quot;100 Mark, 20 Kilo, raus!&quot; Ich zitterte, stellte die Milchkanne und den Schemel hin, und ging in die Küche. Die Christel hatte gerade solchen Durchfall, ich nahm einige der Windeln und schwenkte sie im Wasser aus. Da kamen wieder die polnischen Soldaten und fragten: &quot;Wo pan, wo pan?&quot; Ich sagte, daß er nicht da sei. So schnell ich konnte, nahm ich die 4.000 Mark, die ich noch im Schrank hatte, 3 Taschentücher, das Hochzeitsfoto und die Orden von Franz und versteckte alles in Christels Steckkissen und legte sie darauf. Ich nahm den Kinderwagen und die nassen Windeln mit, in der Hoffnung, sie später irgendwo trocknen zu können. Wir mußten dann zur Durchsuchung in den Garten des Kindergartens. Männer und Frauen wurden getrennt, wir fragten uns, was sie wohl mit uns machen würden. Dann mußten wir in das Haus des Schneiders Thienel. Ich nahm die Christel in den Arm, meine Mutter die Hannchen an der Hand, sie war damals auch erst vier Jahre alt. Im Haus waren überall Soldaten, einer der Soldaten schaute mich an und sagte: &quot;Arme Frau!&quot; Sie schoben mich in ein Zimmer, ich legte Christel auf den Tisch und sie packten sie aus und fanden das Geld. Plötzlich mußten alle, die um den Tisch standen aus dem Haus. Ein Soldat hatte eine Reitpeitsche in der Hand und holte schon aus, um mich zu schlagen. Ein Vorgesetzter jedoch sagte ihm, er solle es lassen. Währenddessen schrie Christel so sehr, weil ihr Schnuller unter den Tisch gefallen war, ich durfte ihn nicht aufheben. Der Oberst, der mich schon vor den Schlägen bewahrt hatte, erlaubte es mir dann doch. So konnte ich Christel wieder beruhigen. Das Geld warfen die Soldaten draußen in die Luft, ich durfte mir nicht einen Schein nehmen. Das ganze Geld war futsch.<br/>Später wurden wir dann zu Fuß über Würben, Schleiwitz, Peterwitz, nach Ottmachau getrieben, das waren ca. 15 Kilometer. Unterwegs verlor ich ständig ein Rad vom Kinderwagen. Ich mußte es immer wieder anstecken. In Ottmachau übernachteten wir in einem großen Saal. Als ich aufwachte, war mein Kinderwagen weg. Ein deutscher Soldat in gestohlener Zivilkleidung, ein Deserteur, hat mir dann geholfen. Durch ihn bekam ich den Kinderwagen wieder zurück.<br/>Wir wurden auf einen Güterwagen verladen und wurden nach Herbstdorf gebracht. Dort lebten wir ein halbes Jahr, und ich ging dort zu einer Polin zum Schneidern, damit ich Brot und Milch für die Kinder hatte. Wir waren ganz zufrieden mit unserer Unterkunft. Franz wußte von Josef, der in Rostock wohnte, daß wir vertrieben worden waren. Wo wir waren, wußte er zu diesem Zeitpunkt noch nicht.</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+.chapter-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1em;
+	margin: 3em 0 1em;
+	padding-top: 1.5em;
+	border-top: 1px solid rgba(55, 53, 47, 0.09);
+	font-size: 0.95em;
+}
+.chapter-nav a { text-decoration: none; }
+.chapter-nav-prev, .chapter-nav-next { flex: 1 1 0; }
+.chapter-nav-next { text-align: right; }
+.chapter-nav-index { flex: 0 0 auto; opacity: 0.6; font-size: 0.85em; }
+@media only screen and (max-width: 720px) {
+	.chapter-nav { flex-wrap: wrap; }
+	.chapter-nav-prev, .chapter-nav-next { flex: 1 1 40%; }
+	.chapter-nav-index { order: 3; width: 100%; text-align: center; }
+}
+</style><style>@import url('https://cdn.jsdelivr.net/npm/katex@0.16.25/dist/katex-swap.min.css')</style></head><body><article id="371e2596-b98c-80d2-9173-c7b25de08ec4" class="page serif"><header><h1 class="page-title" dir="auto">Die Vertreibung </h1><p class="page-description" dir="auto"></p></header><div class="page-body"><hr id="371e2596-b98c-80cc-83f2-d0706d606213" dir="auto"/><p id="371e2596-b98c-8071-9e7f-c03bcff3fef6" class="" dir="auto"><br/>Als wir ca. 3 Wochen zu Hause waren, saß ich, wie jeden Morgen, unter der Kuh zum Melken. Plötzlich kamen bewaffnete polnische Soldaten und riefen: &quot;100 Mark, 20 Kilo, raus!&quot; Ich zitterte, stellte die Milchkanne und den Schemel hin, und ging in die Küche. Die Christel hatte gerade solchen Durchfall, ich nahm einige der Windeln und schwenkte sie im Wasser aus. Da kamen wieder die polnischen Soldaten und fragten: &quot;Wo pan, wo pan?&quot; Ich sagte, daß er nicht da sei. So schnell ich konnte, nahm ich die 4.000 Mark, die ich noch im Schrank hatte, 3 Taschentücher, das Hochzeitsfoto und die Orden von Franz und versteckte alles in Christels Steckkissen und legte sie darauf. Ich nahm den Kinderwagen und die nassen Windeln mit, in der Hoffnung, sie später irgendwo trocknen zu können. Wir mußten dann zur Durchsuchung in den Garten des Kindergartens. Männer und Frauen wurden getrennt, wir fragten uns, was sie wohl mit uns machen würden. Dann mußten wir in das Haus des Schneiders Thienel. Ich nahm die Christel in den Arm, meine Mutter die Hannchen an der Hand, sie war damals auch erst vier Jahre alt. Im Haus waren überall Soldaten, einer der Soldaten schaute mich an und sagte: &quot;Arme Frau!&quot; Sie schoben mich in ein Zimmer, ich legte Christel auf den Tisch und sie packten sie aus und fanden das Geld. Plötzlich mußten alle, die um den Tisch standen aus dem Haus. Ein Soldat hatte eine Reitpeitsche in der Hand und holte schon aus, um mich zu schlagen. Ein Vorgesetzter jedoch sagte ihm, er solle es lassen. Währenddessen schrie Christel so sehr, weil ihr Schnuller unter den Tisch gefallen war, ich durfte ihn nicht aufheben. Der Oberst, der mich schon vor den Schlägen bewahrt hatte, erlaubte es mir dann doch. So konnte ich Christel wieder beruhigen. Das Geld warfen die Soldaten draußen in die Luft, ich durfte mir nicht einen Schein nehmen. Das ganze Geld war futsch.<br/>Später wurden wir dann zu Fuß über Würben, Schleiwitz, Peterwitz, nach Ottmachau getrieben, das waren ca. 15 Kilometer. Unterwegs verlor ich ständig ein Rad vom Kinderwagen. Ich mußte es immer wieder anstecken. In Ottmachau übernachteten wir in einem großen Saal. Als ich aufwachte, war mein Kinderwagen weg. Ein deutscher Soldat in gestohlener Zivilkleidung, ein Deserteur, hat mir dann geholfen. Durch ihn bekam ich den Kinderwagen wieder zurück.<br/>Wir wurden auf einen Güterwagen verladen und wurden nach Herbstdorf gebracht. Dort lebten wir ein halbes Jahr, und ich ging dort zu einer Polin zum Schneidern, damit ich Brot und Milch für die Kinder hatte. Wir waren ganz zufrieden mit unserer Unterkunft. Franz wußte von Josef, der in Rostock wohnte, daß wir vertrieben worden waren. Wo wir waren, wußte er zu diesem Zeitpunkt noch nicht.</p><nav class="chapter-nav"><a class="chapter-nav-prev" href="Der%20fremde%20Reiter.html">← Der fremde Reiter</a><a class="chapter-nav-index" href="../index.html">Inhaltsverzeichnis</a><a class="chapter-nav-next" href="Der%20Wecker.html">Der Wecker →</a></nav></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
